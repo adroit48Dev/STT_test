@@ -1,0 +1,53 @@
+# Question related Devops
+
+1) What is continuous integration?
+
+Ans: Continuous Integration (CI) is best practice of Devops and an Agile where developers push the code changes to code repository(Branches/Main) further it'll automatically tested and deployed in production.
+Main benefit of CI is saving time, also it ensures automated testing and identifying/fixing the bugs, implementing new features therefore it improves code quality. 
+However, it requires careful considerations, proper/well-defined strategies and appropriate tools/technologies to implement a robust CI/CD pipelines.
+
+
+2) What are the prerequisites for successful continuous integration?
+Ans:  In my experience, what I believe to implement a successful CI as follows,
+
+First and foremost the codebase should have the version control system with proper definition of the version(code).
+
+Most easy and widely used tool is Git. 
+
+A secured code repository: with proper autentication methods for developers to access the code branches is needed.
+
+Automated build system and Automamted Testing(Continuous Testing) framework: for a successful CI, we should have an automated build system that can compile the source code, 
+run tests, and generate executable artifacts for building the application. Automated tests to conduct various tests like unittest, integration, UA tests and so on.
+
+Environments: Environments for development, testing, staging and production should be isolated. Fully tested codes can be delivered upon developer's approval 
+and finally deployed into production (It can be automated based on the test results for Continuous deployment).
+
+Tools can be used for successful CI: GitHub, BitBucket, git, Jenkins, Travis CI, CircleCI, Testinng tools selenium, pytest, Docker, Kubernetes etc.,
+
+
+3) If none of these were in place how would you go about bringing the organisation up to the required level? 
+Ans: To be a good tech company or the organisation relies on technology should have best practices in place in-order to provide a seemless service to their customers. 
+If the organistaion lacks of these practices we can adapt appropriate technologies, tools and techniques to attain that level. 
+Based on my expereince, I'd recommend the following suggestions/techniques;
+
+Technology: The community behind the opensource technologies have been increasingly more supportive and introducing new features very frequently. Few of them are Python frameworks like Django/Flask/FastAPI, Javascript frameworks like NodeJs/ReactJs, Java, Angular, Go and many others.
+Choosing appropriate technologies are very important to produce the best product.
+Architecture Design: Micro-Services, Serverless architecture patterns have been increasingly adopted by many organisations. 
+System Design Patterns and Practices: Adopting Coding standards, SOLID Principles, TDD framework, Agile, Devops, DevSecOps, IaC (Infrastructure as Code) practices into the organisation and providing proper trainings and skill development programs can improve the quality of developers/tech team which will reflect in code quality.
+Cloud and CI/CD pipelines: As I mentioned earlier, adopting right tools and technologies based on the project requirements throughtout the SDLC process will help organisation to reach the success of delivering robust product.
+Monitoring and Feedback: Feedback from the stackholders, customer and integrating/updating features will help the organisation to compete with the cometitors and also gain trust from all audiences.
+Monitoring application and providing high availabilty is the key to the success.
+Communication and Collaboration: To maintain high standards and reduce the conflicts inside the team, a well-defined roles, responsibilities to the team members and using relevant communication tools to communication between teams as well to support customers is highly recommended.
+
+These considerations represent key pillars for the success of an organization, enabling it to offer exceptional services to a wide spectrum of customers.
+
+4) Can you design a systems architecture diagram for a serverless application. This is a mobile app that sends data that is stored in the cloud. That data is then viewed in a dashboard.
+
+Ans: Refer the attached simple architecture diagram. Further, we can improve the architecture paradigm based on requirements of the application. Like, implementing monitoring, analytical services, CI, CDN implementaions etc., 
+
+5) How could this test be improved?
+Ans: I understand this test is for evaluating basic skills in python and Devops skills of the candidate. These test questions are helped me to recollect my knowledge in basics of those technologies. It's enough to identify/shortlist a candidate for the role.
+However, we can consider any online portals to conduct the test instead of giving, questions in Doc format. Also, one or two questions can be asked more relevant to job role (for instance: Giving scenario of issues/challenges where organistaion faces on regular basis and ask candidate to solve the challenge. 
+So that, candidate can understand more about the role and organisation will get right person who has skill to solve the issue.) 
+
+Finally, Thanks for giving me the opportunity to do this test.
